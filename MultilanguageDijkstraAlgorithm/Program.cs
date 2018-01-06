@@ -10,6 +10,13 @@ namespace MultilanguageDijkstraAlgorithm
     {
         static void Main(string[] args)
         {
+            IEnumerable<string> testcases = System.IO.Directory.EnumerateFiles(@"..\..\..\data", "*.txt");
+            foreach(string filename in testcases)
+            {
+                TestCase testCase = new TestCase(filename);
+                testCase.Run();
+            }
         }
     }
+
 }

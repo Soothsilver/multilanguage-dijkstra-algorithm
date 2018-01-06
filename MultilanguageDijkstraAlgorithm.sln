@@ -1,13 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp", "MultilanguageDijkstraAlgorithm\CSharp.csproj", "{A49949F7-27FA-4BFC-88C7-773F3320B8A5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C2914861-7696-4BEC-99CB-5D54C3B421AC}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{BCB47696-E72F-45EA-84CF-D7CE5503E855}"
+	ProjectSection(SolutionItems) = preProject
+		data\1.txt = data\1.txt
+		data\2.txt = data\2.txt
+		data\3.txt = data\3.txt
+		data\4.txt = data\4.txt
+		data\5.txt = data\5.txt
 	EndProjectSection
 EndProject
 Global
@@ -23,5 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCB47696-E72F-45EA-84CF-D7CE5503E855} = {C2914861-7696-4BEC-99CB-5D54C3B421AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD8593E3-C7F6-40C7-BE56-F7205E5BC80E}
 	EndGlobalSection
 EndGlobal
