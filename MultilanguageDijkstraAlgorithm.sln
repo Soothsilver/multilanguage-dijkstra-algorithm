@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{BCB47696-E
 		data\5.txt = data\5.txt
 	EndProjectSection
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBNet", "VBNet\VBNet.vbproj", "{614E98C2-0482-40F2-8F70-0DDC3A94D863}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{A49949F7-27FA-4BFC-88C7-773F3320B8A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A49949F7-27FA-4BFC-88C7-773F3320B8A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A49949F7-27FA-4BFC-88C7-773F3320B8A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614E98C2-0482-40F2-8F70-0DDC3A94D863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614E98C2-0482-40F2-8F70-0DDC3A94D863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614E98C2-0482-40F2-8F70-0DDC3A94D863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614E98C2-0482-40F2-8F70-0DDC3A94D863}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
