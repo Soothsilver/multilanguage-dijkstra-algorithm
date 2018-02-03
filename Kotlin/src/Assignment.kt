@@ -14,7 +14,7 @@ class Assignment (public var startNode : Node? = null, public var finishNode : N
     }
 
 }
-class Node (val name : String, val edges : MutableList<Edge> = ArrayList<Edge>(), val bestDistance : Int = Int.MAX_VALUE, val bestParent : Node? = null) {
+class Node (val name : String, val edges : MutableList<Edge> = ArrayList<Edge>(), var bestDistance : Int = Int.MAX_VALUE, var bestParent : Node? = null) {
 
 }
 class Edge (val from : Node, val to : Node, val distance : Int) {
