@@ -37,34 +37,4 @@ fun computeDijkstra(assignment: Assignment): DijkstraResult {
     }
     unfoldedPath.add(0, assignment.startNode!!)
     return DijkstraResult(true, unfoldedPath, assignment.finishNode!!.bestDistance)
-
-    /*
-            }
-
-            // Unfold best
-            if (assignment.FinishNode.BestParent == null)
-            {
-                return new DijkstraResult()
-                {
-                    Successful = false
-                };
-            }
-            List<Node> unfoldedPath = new List<Node>();
-            Node node = assignment.FinishNode;
-            while (node != assignment.StartNode)
-            {
-                unfoldedPath.Insert(0, node);
-                node = node.BestParent;
-            }
-            unfoldedPath.Insert(0, assignment.StartNode);
-            return new DijkstraResult()
-            {
-                Successful = true,
-                BestPath = unfoldedPath,
-                PathLength = assignment.FinishNode.BestDistance
-            };
-        }
-    }
-}
-*/
 }
